@@ -104,7 +104,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/JorgeOchoaReyes/shrinkUrl)
+Project Link: [https://github.com/jorgeochoareyes/shrinkurl](https://github.com/JorgeOchoaReyes/shrinkUrl)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
