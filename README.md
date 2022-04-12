@@ -33,10 +33,11 @@ URL Shrinker
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot]![image](https://user-images.githubusercontent.com/60721681/163066066-bc777211-1fd2-4619-9dd5-2821e873c881.png)
+![image](https://user-images.githubusercontent.com/60721681/163066066-bc777211-1fd2-4619-9dd5-2821e873c881.png)
 
 
 I saw this project in a book and had some extra time so I decided to build this. 
+<br />
 Book => "System Design Interview An Insiders Guide" by Alex Xu
 It takes any url and shrinks it a bit, not the best shrinking hash used but still shortens really long urls. 
 
