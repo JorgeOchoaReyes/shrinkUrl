@@ -5,6 +5,9 @@ import CRC32 from "crc-32";
 ;
 
 const createHash = async (url: string) => {
+    let results = await URLS.findOne({url: url})
+    if(results) return results.code; 
+
     let encodedLink = Math.abs(CRC32.str(url));
     console.log(encodedLink); 
     try {
