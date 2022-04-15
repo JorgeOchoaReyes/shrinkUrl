@@ -1,11 +1,11 @@
 import express, {Response, Request} from 'express'; 
 const router = express.Router();
-import { URLS } from '../db';
+import { DB } from '../db';
 
 const deleteURL = async (code: string): Promise<Boolean | undefined> => {
     if(!code) return false; 
     try {
-        await URLS.deleteMany({code: code}); 
+        await DB(1).deleteMany({code: code}) || DB(15).deleteMany({code: code}) || DB(30).deleteMany({code: code}); 
         return true; 
     }
     catch (error) {

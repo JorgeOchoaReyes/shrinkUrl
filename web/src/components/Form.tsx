@@ -19,10 +19,12 @@ export default function Form(props: FlexProps) {
     initialValues: {
       url: "",
       alias: "",
-      days: 1
+      days: ""
     },
     onSubmit: async (values) => {
-      const res = await useFetch('post', values.url);
+      if(!values.days) values.days = "1"; 
+      let num = parseInt(values.days);
+      const res = await useFetch('post', values.url, num);
       console.log(res); 
       dispatch({Surl: "http://localhost:3001/" + res})
     }
@@ -63,7 +65,7 @@ export default function Form(props: FlexProps) {
                   value={formik.values.alias}
                 />
                 </VStack>
-            </FormControl>
+            </FormControl>*/}
 
             <FormControl isRequired>
               <VStack spacing={4} align="flex-start"> 
@@ -75,7 +77,7 @@ export default function Form(props: FlexProps) {
                   <option value={30}>30</option>
                 </Select>
                 </VStack>
-            </FormControl> */}
+            </FormControl> 
 
             <Button type="submit" colorScheme="purple" isFullWidth>
                   Shrink Url!

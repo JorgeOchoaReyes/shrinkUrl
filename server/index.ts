@@ -19,7 +19,7 @@ app.use(json());
 app.use(cors()); 
 app.use(urlencoded({extended: true}));
 app.use('/createUrl', createUrl);
-app.use('/deleteUrl', deleteUrl); 
+// app.use('/deleteUrl', deleteUrl); 
 app.use('/', redirect)
 
 app.listen(3001, () => {

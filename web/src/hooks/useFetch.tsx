@@ -1,5 +1,5 @@
 
-export const useFetch = async (method, link) => {
+export const useFetch = async (method, link, expires) => {
     let res; 
     switch (method) {
         case "post":
@@ -10,7 +10,7 @@ export const useFetch = async (method, link) => {
                   'Accept': 'application/json',
                   'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({link: link})
+                body: JSON.stringify({link: link, expires: expires})
               });
               return res.json(); 
             }
