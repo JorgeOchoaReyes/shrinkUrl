@@ -11,8 +11,6 @@ URL Shrinker
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
-    </li>
-    <li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -84,6 +82,9 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+## Acknowledgments
+
+Chekc out the book "System Design Interview – An insider's guide" at https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF
 
 <!-- LICENSE -->
 ## License
