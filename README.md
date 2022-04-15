@@ -26,7 +26,7 @@ URL Shrinker
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![image](https://user-images.githubusercontent.com/60721681/163518553-59d72b29-3539-4b01-aef9-3a6b3b3f2626.png)
+![image](https://user-images.githubusercontent.com/60721681/163518715-8ba7f4fe-5aa1-4ea2-b847-754c69091713.png)
 
 
 I saw this project in a book and had some extra time so I decided to build this. 
