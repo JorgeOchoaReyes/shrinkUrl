@@ -13,13 +13,6 @@ URL Shrinker
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -33,7 +26,7 @@ URL Shrinker
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![image](https://user-images.githubusercontent.com/60721681/163066066-bc777211-1fd2-4619-9dd5-2821e873c881.png)
+![image](https://user-images.githubusercontent.com/60721681/163518553-59d72b29-3539-4b01-aef9-3a6b3b3f2626.png)
 
 
 I saw this project in a book and had some extra time so I decided to build this. 
@@ -64,7 +57,7 @@ It takes any url and shrinks it a bit, not the best shrinking hash used but stil
 ## Roadmap
 
 - [ ] Add custom name to URLs
-- [ ] Add experation dates to each url
+- [X] Add expiration dates to each url
 - [ ] Store session of user and links they create
 - [ ] Ability to delete stored links (the /deleteurl works just need to store sesssions)
 
